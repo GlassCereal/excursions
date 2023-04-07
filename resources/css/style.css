@@ -1,15 +1,36 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+}
 
+h1 {
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+    text-align: center;
 }
 
 body {
     background-color: black;
+    text-align: center;
 }
 
-#load p {
+.load p {
     color: aquamarine;
     font-size: 16px;
     text-decoration: underline;
+}
+
+.tag p {
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
+
+.subtag p {
+    font-size: 21px;
+    color: gray;
+}
+footer {
+    color: gray;
+    text-align: right;
 }
